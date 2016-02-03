@@ -34,6 +34,11 @@ TOOLS → Options... → Environment → Fonts and Colors → Accent Occurrences
 Pull requests for bug fixes or new features are welcome.
 
 ####Version History:
+**1.2.1**
+
+- Reverted references to an older version allowing the extension to install and run correctly in older versions of Visual Studio.
+  - See [Github](https://github.com/coderfin/AccentOccurrences/issues/2) for more details.
+
 **1.2.0**
 
 - Now installable in Visual Studio 2012-2015 (Community, Pro, and Enterprise).
