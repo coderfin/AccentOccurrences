@@ -30,11 +30,14 @@ OnTheDarkSide
 
 TOOLS → Options... → Environment → Fonts and Colors → Accent Occurrences (Box/Font/Glyph)
 
+####Build
+[Visual Studio 2012](https://www.microsoft.com/en-us/download/confirmation.aspx?id=30682), [Visual Studio 2012 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=30668), and [Visual Studio 2015](https://www.visualstudio.com/vs-2015-product-editions) are required to build this project. Visual Studio 2012 SDK provides the backwards compatibility to run this extension in older versions of Visual Studio.
+
 ####Contributing
 Pull requests for bug fixes or new features are welcome.
 
 ####Version History:
-**1.2.1**
+**1.2.2 - 1.2.1**
 
 - Reverted references to an older version allowing the extension to install and run correctly in older versions of Visual Studio.
   - See [Github](https://github.com/coderfin/AccentOccurrences/issues/2) for more details.
