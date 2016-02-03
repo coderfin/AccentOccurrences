@@ -11,18 +11,23 @@
 ####Examples and Customization:
 
 ![Default](images/default.png)
+
 Default
 
 ![Case Sensitive](images/holdingctrl.png)
+
 Case sensitive holding down the `Ctrl` key
 
 ![LemonLime](images/lemonlime200.png)
+
 LemonLime, 200%
 
 ![DarkSide](images/onthedarkside.png)
+
 OnTheDarkSide
 
 ![Options](images/options.png)
+
 TOOLS → Options... → Environment → Fonts and Colors → Accent Occurrences (Box/Font/Glyph)
 
 ####Contributing
@@ -46,7 +51,7 @@ Pull requests for bug fixes or new features are welcome.
 
 - Initial Release
 
-######ACCENT: Verb - to give emphasis or prominence to.
+#####ACCENT: Verb - to give emphasis or prominence to.
 
 #####Links that were useful in developing this extension
 
