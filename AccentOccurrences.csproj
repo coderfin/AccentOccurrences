@@ -107,13 +107,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\default.PNG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="images\holdingctrl.PNG" />
-    <Content Include="images\lemonlime200.PNG" />
-    <Content Include="images\onthedarkside.PNG" />
+    <Content Include=".gitignore" />
+    <Content Include="images\default.png" />
+    <Content Include="images\holdingctrl.png" />
+    <Content Include="images\lemonlime200.png" />
+    <Content Include="images\onthedarkside.png" />
     <Content Include="images\options.png" />
     <Content Include="LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
