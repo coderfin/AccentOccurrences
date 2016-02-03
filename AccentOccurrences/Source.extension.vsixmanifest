@@ -1,0 +1,31 @@
+﻿<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+	<Metadata>
+		<Identity Id="AccentOccurrences..287c1325-f0b5-4e34-87e6-f99b5bbcb448" Version="1.2.0" Language="en-US" Publisher="coderfin" />
+		<DisplayName>Accent Occurrences </DisplayName>
+		<Description xml:space="preserve">Adds an accent/highlight feature to Visual Studio that allows you to quickly see all the occurrences of a selected word or selected characters.
+
+Features:
+- Customizable colors for background, border, font, and glyph [TOOLS → Options... → Environment → Fonts and Colors → Accent Occurrences (Box/Font/Glyph)]
+- Hold the Ctrl key while selecting text to make the search case sensitive
+
+ACCENT: Verb - to give emphasis or prominence to.  </Description>
+		<MoreInfo>http://visualstudiogallery.msdn.microsoft.com/2f4627df-98ca-4ce1-9187-8eec7a67ba8c</MoreInfo>
+		<License>LICENSE.txt</License>
+		<GettingStartedGuide>http://visualstudiogallery.msdn.microsoft.com/2f4627df-98ca-4ce1-9187-8eec7a67ba8c#Details_Tab</GettingStartedGuide>
+		<ReleaseNotes>README.md</ReleaseNotes>
+		<Icon>logo\AccentOccurrences.png</Icon>
+		<PreviewImage>logo\AccentOccurrences.png</PreviewImage>
+		<Tags>Word, Highlight, Text, Document, selection, adornment, Glyph, Mouse, Notepad++, Double click, accent, color, awesome, highlight all occurrences, accent all occurrences, selected word, selection</Tags>
+	</Metadata>
+	<Installation>
+		<InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+		<InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+		<InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
+	</Installation>
+	<Dependencies>
+		<Dependency Version="4.5" d:Source="Manual" DisplayName="Microsoft .NET Framework" Id="Microsoft.Framework.NDP" />
+	</Dependencies>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.MefComponent" Path="AccentOccurrences.dll" />
+	</Assets>
+</PackageManifest>

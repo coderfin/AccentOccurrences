@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AccentOccurrences" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Border" Type="System.Windows.Media.Color" Scope="User">
+      <Value Profile="(Default)">#FFFFFFFF</Value>
+    </Setting>
+    <Setting Name="Fill" Type="System.Windows.Media.Color" Scope="User">
+      <Value Profile="(Default)">#FF1E90FF</Value>
+    </Setting>
+    <Setting Name="Font" Type="System.Windows.Media.Color" Scope="User">
+      <Value Profile="(Default)">#FFFFFFFF</Value>
+    </Setting>
+    <Setting Name="GlyphBorder" Type="System.Windows.Media.Color" Scope="User">
+      <Value Profile="(Default)">#FFFFFFFF</Value>
+    </Setting>
+    <Setting Name="GlyphFill" Type="System.Windows.Media.Color" Scope="User">
+      <Value Profile="(Default)">#FF1E90FF</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
