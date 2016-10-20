@@ -37,6 +37,11 @@ TOOLS → Options... → Environment → Fonts and Colors → Accent Occurrences
 Pull requests for bug fixes or new features are welcome.
 
 ####Version History:
+**1.3.0**
+
+- White-space only selections are now ignored.  If you select text that contains both white-space and non-white-space characters the white-space will not be ignored.
+  - See [Github](https://github.com/coderfin/AccentOccurrences/issues/3) for more details.
+
 **1.2.2 - 1.2.1**
 
 - Reverted references to an older version allowing the extension to install and run correctly in older versions of Visual Studio.
