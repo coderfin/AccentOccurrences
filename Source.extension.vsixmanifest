@@ -1,6 +1,6 @@
 ﻿<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 	<Metadata>
-		<Identity Id="AccentOccurrences..287c1325-f0b5-4e34-87e6-f99b5bbcb448" Version="1.2.2" Language="en-US" Publisher="coderfin" />
+		<Identity Id="AccentOccurrences..287c1325-f0b5-4e34-87e6-f99b5bbcb448" Version="1.3.0" Language="en-US" Publisher="coderfin" />
 		<DisplayName>Accent Occurrences </DisplayName>
 		<Description xml:space="preserve">Adds an accent/highlight feature to Visual Studio that allows you to quickly see all the occurrences of a selected word or selected characters.
 
