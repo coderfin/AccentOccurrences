@@ -98,7 +98,7 @@ namespace AccentOccurrences
 
 		public IEnumerable<ITagSpan<AccentBoxOccurrences>> GetTags(NormalizedSnapshotSpanCollection spans)
 		{
-			if (CurrentWord == null)
+			if (CurrentWord == null || CurrentWord.Value.IsEmpty || String.IsNullOrWhiteSpace(CurrentWord.Value.GetText()))
 			{
 				yield break;
 			}
