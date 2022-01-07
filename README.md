@@ -1,14 +1,18 @@
-﻿#Accent Occurrences
+# NO LONGER MAINTAINED
+
+This repository is no longer maintained.  It has been archived but can still be forked.  It is licensed under MIT.
+
+# Accent Occurrences
 
 > The Accent Occurrences extension adds an accent/highlight feature to Visual Studio 2012-2015 that allows you to quickly see all the occurrences of a selected word or selected characters.
 
-####Features:
+#### Features:
 - Customizable colors for background, border, font, and glyph
   - TOOLS → Options... → Environment → Fonts and Colors → Accent Occurrences (Box/Font/Glyph)
 - Hold the `Ctrl` key while selecting text to make the search **case sensitive**
 - Select using the keyboard or mouse
 
-####Examples and Customization:
+#### Examples and Customization:
 
 ![Default](images/default.png)
 
@@ -33,10 +37,10 @@ TOOLS → Options... → Environment → Fonts and Colors → Accent Occurrences
 ####Build
 [Visual Studio 2012](https://www.microsoft.com/en-us/download/confirmation.aspx?id=30682), [Visual Studio 2012 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=30668), and [Visual Studio 2015](https://www.visualstudio.com/vs-2015-product-editions) are required to build this project. Visual Studio 2012 SDK provides the backwards compatibility to run this extension in older versions of Visual Studio.
 
-####Contributing
+#### Contributing
 Pull requests for bug fixes or new features are welcome.
 
-####Version History:
+#### Version History:
 **1.3.0**
 
 - White-space only selections are now ignored.  If you select text that contains both white-space and non-white-space characters the white-space will not be ignored.
@@ -64,9 +68,9 @@ Pull requests for bug fixes or new features are welcome.
 
 - Initial Release
 
-#####ACCENT: Verb - to give emphasis or prominence to.
+##### ACCENT: Verb - to give emphasis or prominence to.
 
-#####Links that were useful in developing this extension
+##### Links that were useful in developing this extension
 
 - http://social.msdn.microsoft.com/Forums/en-US/vsx/thread/3e9f0fcf-a03f-4508-9a2a-5b0369377d14
 - http://msdn.microsoft.com/en-us/library/dd885121.aspx
